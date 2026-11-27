@@ -68,13 +68,13 @@ One student can have multiple assignments. Each assignment belongs to one studen
 
 | Method | Endpoint                | Purpose                  |
 | ------ | ----------------------- | ------------------------ |
-| POST   | `/api/register`         | Register a student       |
-| POST   | `/api/login`            | Authenticate a student   |
-| GET    | `/api/assignments`      | View student assignments |
-| POST   | `/api/assignments`      | Add a new assignment     |
-| GET    | `/api/assignments/{id}` | View one assignment      |
-| PUT    | `/api/assignments/{id}` | Update an assignment     |
-| DELETE | `/api/assignments/{id}` | Delete an assignment     |
+| POST   |  /api/register          | Register a student       |
+| POST   |  /api/login             | Authenticate a student   |
+| GET    |  /api/assignments       | View student assignments |
+| POST   |  /api/assignments       | Add a new assignment     |
+| GET    |  /api/assignments/{id}  | View one assignment      |
+| PUT    |  /api/assignments/{id}  | Update an assignment     |
+| DELETE |  /api/assignments/{id}  | Delete an assignment     |
 
 7. Frontend Screens
 
@@ -86,7 +86,6 @@ One student can have multiple assignments. Each assignment belongs to one studen
 6. Edit Assignment Page: Allows students to update assignment details.
 
 8. Project Folder Structure
-
 SWYNEX-Student-Task-Tracker/
 │
 ├── app.py
