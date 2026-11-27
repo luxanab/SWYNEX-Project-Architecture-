@@ -85,7 +85,9 @@ One student can have multiple assignments. Each assignment belongs to one studen
 5. Assignment List Page: Displays assignments with their deadlines and status.
 6. Edit Assignment Page: Allows students to update assignment details.
 
-8. Project Folder Structure
+
+7. Project Folder Structure
+
 SWYNEX-Student-Task-Tracker/
 │
 ├── app.py
@@ -108,6 +110,7 @@ SWYNEX-Student-Task-Tracker/
 │   └── schema.sql
 │
 └── README.md
+
 
 
 9. Security and Validation
